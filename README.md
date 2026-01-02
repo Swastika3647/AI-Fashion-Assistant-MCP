@@ -22,3 +22,23 @@ This is a **Model Context Protocol (MCP)** server that runs locally on your mach
 ```bash
 git clone [https://github.com/Swastika-j6x/AI-Fashion-Mcp.git](https://github.com/Swastika-j6x/AI-Fashion-Mcp.git)
 cd AI-Fashion-Mcp
+2. Install Dependencies
+Bash
+
+pip install -r requirements.txt
+3. Get your API Key
+You need a free Google Gemini API key from Google AI Studio.
+
+Important: Do not share this key!
+
+Set it in your terminal:
+
+Bash
+
+export GOOGLE_API_KEY="your_key_here"
+🚀 How to Run
+Start the MCP Server in "Dev Mode" (Inspector):
+
+Bash
+
+mcp dev fashion_server.py
