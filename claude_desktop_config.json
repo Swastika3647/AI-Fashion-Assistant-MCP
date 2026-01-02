@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fashion-stylist": {
+      "command": "/opt/miniconda3/bin/python",
+      "args": [
+        "/Users/swastikabhattacharjee/Documents/FashionMCP/fashion_server.py"
+      ],
+      "env": {
+        "GOOGLE_API_KEY": "AIzaSyDoXBDF_G7836osOper4cKHsyHlClQ_U4E"
+      }
+    }
+  }
+}
